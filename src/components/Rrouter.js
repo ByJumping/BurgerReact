@@ -8,6 +8,7 @@ import NotFound from './NotFound';
 
 const Rrouter = ()=> {
     return(
+
         <BrowserRouter>
             <Switch>
                 <Route exact path='/' component={Landing} />
